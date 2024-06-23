@@ -53,8 +53,14 @@ bottom:30%;
 right: 30%;
 transition: transform 0.3s;
 margin-top: 50px;
-margin-left: 50px;
+margin-left: 5px;
+
 }
+
+a{
+    text-decoration: none;
+}
+
 
 .startbutton3:hover{
     transform: scale(1.2);
@@ -79,6 +85,29 @@ margin-left: 50px;
     transform: scale(1.2);
 }
 
+.submenu {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    gap: 50px;
+    top: 15px;
+}
+
+.musica{
+    transition: transform 0.3s;
+}
+
+.efeito{
+    transition: transform 0.3s;
+}
+
+.musica:hover{
+    transform: scale(1.2);
+}
+
+.efeito:hover{
+    transform: scale(1.2);
+}
 
 /*VICTORIA*/
 
@@ -97,43 +126,48 @@ margin-left: 50px;
     width:600px; /* largura */
     height: 300px; /* altura */
     border:1px solid #333;
-    margin-top: 80px;
-    margin-left: 320px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding: 20px;
-    background-color: chocolate;
-    opacity: 60%;
+    background-color: rgba(210, 105, 30, 0.735);
     border-radius: 20px;
     
 }
 
-
 h1{
     text-align: center;
     font-size: 40px;
+    color: #434242;
 }
+
 .texto h5{
-    color: black;
+    color: rgb(61, 61, 61);
     position: relative;
     text-align: justify;
     font-family: inherit;
     font-size: 18px;
+    line-height: 25px;
 }
 
 .startbutton2{
-border-radius: 15%;
+border-radius: 10%;
 padding: 15px 30px;
 font-size: 18px;
-background-color: chocolate;
+background-color: hsl(25, 75%, 47%);
 color: aliceblue;
 border: none;
 margin: 10px;
 display: block;
 bottom:30%;
 right: 30%;
-margin-top: 20px;
-margin-left: 580px;
+margin-top: 35px;
+margin-left: 280px;
 transition: transform 0.3s;
 cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }
 
 .startbutton2:hover{
@@ -161,10 +195,45 @@ cursor: pointer;
 
 .musica{
     margin-top: 1px;
-    margin-right: 1000px; /*esquerda*/
-    
+    margin-right: 1000px; /*esquerda*/  
+}
+
+.seta{
+    margin-left: 30px;
+    margin-top: 3px;
+    cursor: pointer;
+    display: block;
+    bottom:30%;
+    transition: transform 0.3s;
+}
+
+.seta:hover {
+    transform: scale(1.5); /* Aumenta o ícone ao passar o mouse */
+}
+
+.submenu1 {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
     
 }
+
+.musica{
+    transition: transform 0.3s;
+}
+
+.efeito{
+    transition: transform 0.3s;
+}
+
+.musica:hover{
+    transform: scale(1.2);
+}
+
+.efeito:hover{
+    transform: scale(1.2);
+}
+
 
 /*YARA*/
 body {
@@ -214,14 +283,15 @@ body {
 }
 
 .outer-container {
-    background-color: #fab027;
+    background-color: hsl(25, 87%, 55%);
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    display: block;
 }
 
 .container3 {
-    background-color: #ffa500;
+    background-color: hsla(25, 94%, 63%, 0.849);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -267,6 +337,46 @@ button {
 
 button:hover {
     background-color: #886621;
+}
+
+.Voltar{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    display: block;
+    margin-top: 600px;
+    margin-right: 900px;
+    bottom:30%;
+}
+
+.Voltar:hover{
+    transform: scale(1.2);
+}
+
+.submenu2 {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.musica{
+    transition: transform 0.3s;
+}
+
+.efeito{
+    transition: transform 0.3s;
+}
+
+.musica:hover{
+    transform: scale(1.2);
+}
+
+.efeito:hover{
+    transform: scale(1.2);
 }
 
 /*REBECA*/
